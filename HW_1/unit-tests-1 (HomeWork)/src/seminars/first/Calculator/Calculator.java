@@ -48,7 +48,6 @@ public class Calculator {
         if(purchaseAmount <= 0 || discountAmount < 0) {
                 throw new IllegalArgumentException("Cannot calculate discount of a negative number");
             }
-        double discountPurchaseAmount = purchaseAmount - (purchaseAmount * discountAmount / 100);
-        return discountPurchaseAmount; // Метод должен возвращать сумму покупки со скидкой
+        return purchaseAmount - (purchaseAmount * discountAmount / 100); // Метод должен возвращать сумму покупки со скидкой
     }
 }
