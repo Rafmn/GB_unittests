@@ -1,0 +1,6 @@
+************* Module diff_lists
+diff_lists.py:3:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 9.44/10 (previous run: 8.89/10, +0.56)
+

@@ -61,7 +61,7 @@ public class CalculatorTest {
         System.out.println(Calculator.squareRootExtraction(169));
         System.out.println(Calculator.calculatingDiscount(234.00, 10));
 
-        // Примерные throws Exceptionрешения домашних заданий из 1 лекции:
+        // Примерные throws Exception-решения домашних заданий из 1 лекции:
 
         // HW1.1: Придумайте и опишите (можно в псевдокоде) функцию извлечения корня и
         // необходимые проверки для него используя граничные случаи
@@ -74,7 +74,7 @@ public class CalculatorTest {
         //        seminars.first.Calculator.Calculator.calculation(5, 0, '/')
         // ).isInstanceOf(ArithmeticException.class);
 
-        // HW1.3: Сравните одну и ту же проверку с использованием условий, ассертов, AssertJ
+        // HW1.3: Сравните одну и ту же проверку с использованием условий, ассе-ртов, AssertJ
         // в каком случае стандартное сообщение об ошибке будет более информативным?
         // if (0 != seminars.first.Calculator.Calculator.calculation(2, 6, '+')) {
         //     throw new AssertionError("Ошибка в методе");

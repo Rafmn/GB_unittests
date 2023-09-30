@@ -3,7 +3,7 @@ package seminars.first.Shop;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-import java.util.Collections.sort();
+//import java.util.Collections.sort();
 
 public class Shop {
     private List<Product> products;
@@ -19,7 +19,7 @@ public class Shop {
 
     // Метод должен вернуть отсортированный по возрастанию по цене список продуктов
     public List<Product> sortProductsByPrice() {
-        Collections.sort(products);
+//        Collections.sort(products);
         // Допишите реализацию метода самостоятельно
         return products;
     }
